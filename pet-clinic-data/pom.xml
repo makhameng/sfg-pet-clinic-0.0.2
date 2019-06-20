@@ -75,7 +75,19 @@
                     </execution>
                 </executions>
             </plugin>
+          <!--  <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.0</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.junit.platform</groupId>
+                        <artifactId>junit-plartform-surefire-provider</artifactId>
+                        <version>${junit-plartform.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin> -->
         </plugins>
+
     </build>
 
   <scm>
